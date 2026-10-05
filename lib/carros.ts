@@ -79,6 +79,16 @@ const FOTO_POR_MODELO: Record<string, string> = {
   Corolla: "corolla",
   "HR-V": "hrv",
   Kicks: "kicks-principal",
+  Yaris: "yaris",
+  Amarok: "amarok",
+  Kwid: "kwid",
+  Civic: "civic",
+  Virtus: "virtus",
+  Pulse: "pulse",
+  Onix: "onix",
+  "T-Cross": "t-cross",
+  Tracker: "tracker",
+  Nivus: "nivus",
 };
 
 export function foto(c: Carro): string | null {
