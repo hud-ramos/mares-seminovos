@@ -1,0 +1,7284 @@
+[
+  {
+    "id": "MS0001",
+    "marca": "Honda",
+    "modelo": "City Hatchback",
+    "versao": "EX 1.5",
+    "tipo": "Hatch",
+    "ano": 2022,
+    "km": 37300,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Zona Norte",
+    "preco": 80800,
+    "fipe": 85500,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 16000,
+      "parcelas": 48,
+      "parcela": 2023,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0002",
+    "marca": "Toyota",
+    "modelo": "Hilux",
+    "versao": "SRV 2.8 4x4",
+    "tipo": "Picape",
+    "ano": 2026,
+    "km": 12200,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Preto",
+    "loja": "Marés Centro",
+    "preco": 297100,
+    "fipe": 311600,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 59000,
+      "parcelas": 48,
+      "parcela": 7435,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0003",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "versao": "Altis Hybrid",
+    "tipo": "Sedã",
+    "ano": 2025,
+    "km": 24900,
+    "cambio": "Automático",
+    "combustivel": "Híbrido",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 150900,
+    "fipe": 150000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 30000,
+      "parcelas": 48,
+      "parcela": 3321,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0004",
+    "marca": "Toyota",
+    "modelo": "Yaris",
+    "versao": "XLS 1.5",
+    "tipo": "Hatch",
+    "ano": 2022,
+    "km": 67500,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Zona Norte",
+    "preco": 68500,
+    "fipe": 73500,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 14000,
+      "parcelas": 48,
+      "parcela": 1497,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0005",
+    "marca": "Volkswagen",
+    "modelo": "Polo",
+    "versao": "Track 1.0",
+    "tipo": "Hatch",
+    "ano": 2018,
+    "km": 143500,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 52200,
+    "fipe": 52900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 10000,
+      "parcelas": 48,
+      "parcela": 1159,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0006",
+    "marca": "Fiat",
+    "modelo": "Toro",
+    "versao": "Freedom 1.3 Turbo",
+    "tipo": "Picape",
+    "ano": 2019,
+    "km": 65900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Zona Norte",
+    "preco": 108000,
+    "fipe": 104200,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 22000,
+      "parcelas": 48,
+      "parcela": 2362,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0007",
+    "marca": "Renault",
+    "modelo": "Duster",
+    "versao": "Intense 1.6",
+    "tipo": "SUV",
+    "ano": 2024,
+    "km": 22700,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 105100,
+    "fipe": 101300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2626,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0008",
+    "marca": "Honda",
+    "modelo": "HR-V",
+    "versao": "EXL 1.5",
+    "tipo": "SUV",
+    "ano": 2022,
+    "km": 39600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Zona Norte",
+    "preco": 117400,
+    "fipe": 115800,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 23000,
+      "parcelas": 48,
+      "parcela": 2948,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0009",
+    "marca": "Honda",
+    "modelo": "City",
+    "versao": "EXL 1.5",
+    "tipo": "Sedã",
+    "ano": 2021,
+    "km": 89400,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 90500,
+    "fipe": 85900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 18000,
+      "parcelas": 48,
+      "parcela": 2264,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0010",
+    "marca": "Renault",
+    "modelo": "Duster",
+    "versao": "Iconic 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2025,
+    "km": 14100,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 109700,
+    "fipe": 117100,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 22000,
+      "parcelas": 48,
+      "parcela": 2738,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0011",
+    "marca": "Fiat",
+    "modelo": "Toro",
+    "versao": "Freedom 1.3 Turbo",
+    "tipo": "Picape",
+    "ano": 2019,
+    "km": 108500,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Zona Norte",
+    "preco": 99500,
+    "fipe": 95700,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 20000,
+      "parcelas": 48,
+      "parcela": 2482,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0012",
+    "marca": "Jeep",
+    "modelo": "Compass",
+    "versao": "Longitude 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2022,
+    "km": 56200,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Zona Norte",
+    "preco": 137000,
+    "fipe": 146800,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 27000,
+      "parcelas": 48,
+      "parcela": 3435,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0013",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "versao": "Drive 1.0",
+    "tipo": "Hatch",
+    "ano": 2018,
+    "km": 59900,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 45800,
+    "fipe": 46500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 9000,
+      "parcelas": 48,
+      "parcela": 1149,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0014",
+    "marca": "Nissan",
+    "modelo": "Kicks",
+    "versao": "Exclusive 1.6",
+    "tipo": "SUV",
+    "ano": 2023,
+    "km": 52000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 101200,
+    "fipe": 106600,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 20000,
+      "parcelas": 48,
+      "parcela": 2535,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0015",
+    "marca": "Volkswagen",
+    "modelo": "T-Cross",
+    "versao": "Highline 250 TSI",
+    "tipo": "SUV",
+    "ano": 2021,
+    "km": 57200,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 105300,
+    "fipe": 102400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2632,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0016",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "versao": "Trekking 1.3",
+    "tipo": "Hatch",
+    "ano": 2023,
+    "km": 20400,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Zona Norte",
+    "preco": 69500,
+    "fipe": 72400,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 14000,
+      "parcelas": 48,
+      "parcela": 1524,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0017",
+    "marca": "Nissan",
+    "modelo": "Versa",
+    "versao": "Advance 1.6",
+    "tipo": "Sedã",
+    "ano": 2025,
+    "km": 16800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Litoral",
+    "preco": 104500,
+    "fipe": 110400,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2607,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0018",
+    "marca": "Nissan",
+    "modelo": "Versa",
+    "versao": "Exclusive 1.6",
+    "tipo": "Sedã",
+    "ano": 2022,
+    "km": 76900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Zona Norte",
+    "preco": 87100,
+    "fipe": 88200,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 17000,
+      "parcelas": 48,
+      "parcela": 2189,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0019",
+    "marca": "Honda",
+    "modelo": "Civic",
+    "versao": "Touring 1.5 Turbo",
+    "tipo": "Sedã",
+    "ano": 2023,
+    "km": 27800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 135400,
+    "fipe": 130700,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 27000,
+      "parcelas": 48,
+      "parcela": 2977,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0020",
+    "marca": "Chevrolet",
+    "modelo": "Onix",
+    "versao": "Premier 1.0 Turbo",
+    "tipo": "Hatch",
+    "ano": 2020,
+    "km": 91300,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 64000,
+    "fipe": 62200,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 13000,
+      "parcelas": 48,
+      "parcela": 1592,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0021",
+    "marca": "Chevrolet",
+    "modelo": "Onix",
+    "versao": "LT 1.0 Turbo",
+    "tipo": "Hatch",
+    "ano": 2024,
+    "km": 30500,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Centro",
+    "preco": 79700,
+    "fipe": 84600,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 16000,
+      "parcelas": 48,
+      "parcela": 1750,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0022",
+    "marca": "Honda",
+    "modelo": "City Hatchback",
+    "versao": "Touring 1.5",
+    "tipo": "Hatch",
+    "ano": 2023,
+    "km": 40800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 93100,
+    "fipe": 93400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2314,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0023",
+    "marca": "Volkswagen",
+    "modelo": "Virtus",
+    "versao": "Exclusive 250 TSI",
+    "tipo": "Sedã",
+    "ano": 2022,
+    "km": 43900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Centro",
+    "preco": 95100,
+    "fipe": 93600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2376,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0024",
+    "marca": "Toyota",
+    "modelo": "Hilux",
+    "versao": "SRX 2.8 4x4",
+    "tipo": "Picape",
+    "ano": 2025,
+    "km": 22200,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Branco",
+    "loja": "Marés Centro",
+    "preco": 291900,
+    "fipe": 283800,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 58000,
+      "parcelas": 48,
+      "parcela": 7303,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0025",
+    "marca": "Jeep",
+    "modelo": "Renegade",
+    "versao": "Longitude 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2021,
+    "km": 64100,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 97900,
+    "fipe": 97800,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 20000,
+      "parcelas": 48,
+      "parcela": 2432,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0026",
+    "marca": "Honda",
+    "modelo": "City Hatchback",
+    "versao": "Touring 1.5",
+    "tipo": "Hatch",
+    "ano": 2022,
+    "km": 52800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 83200,
+    "fipe": 86000,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 17000,
+      "parcelas": 48,
+      "parcela": 2067,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0027",
+    "marca": "Volkswagen",
+    "modelo": "Polo",
+    "versao": "Track 1.0",
+    "tipo": "Hatch",
+    "ano": 2024,
+    "km": 43500,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 81900,
+    "fipe": 86000,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 16000,
+      "parcelas": 48,
+      "parcela": 2058,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0028",
+    "marca": "Honda",
+    "modelo": "Civic",
+    "versao": "EXL 2.0",
+    "tipo": "Sedã",
+    "ano": 2017,
+    "km": 136200,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Litoral",
+    "preco": 89400,
+    "fipe": 90100,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 18000,
+      "parcelas": 48,
+      "parcela": 2229,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0029",
+    "marca": "Volkswagen",
+    "modelo": "Polo",
+    "versao": "Track 1.0",
+    "tipo": "Hatch",
+    "ano": 2026,
+    "km": 6000,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Centro",
+    "preco": 101100,
+    "fipe": 104300,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 20000,
+      "parcelas": 48,
+      "parcela": 2532,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0030",
+    "marca": "Toyota",
+    "modelo": "Corolla Cross",
+    "versao": "XRX Hybrid",
+    "tipo": "SUV",
+    "ano": 2022,
+    "km": 54200,
+    "cambio": "Automático",
+    "combustivel": "Híbrido",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 136600,
+    "fipe": 131100,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 27000,
+      "parcelas": 48,
+      "parcela": 3422,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0031",
+    "marca": "Volkswagen",
+    "modelo": "Polo",
+    "versao": "Highline 170 TSI",
+    "tipo": "Hatch",
+    "ano": 2018,
+    "km": 58600,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Zona Norte",
+    "preco": 54600,
+    "fipe": 53300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 11000,
+      "parcelas": 48,
+      "parcela": 1361,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0032",
+    "marca": "Honda",
+    "modelo": "HR-V",
+    "versao": "EXL 1.5",
+    "tipo": "SUV",
+    "ano": 2022,
+    "km": 54900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 121500,
+    "fipe": 116500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 24000,
+      "parcelas": 48,
+      "parcela": 3044,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0033",
+    "marca": "Toyota",
+    "modelo": "Yaris",
+    "versao": "XLS 1.5",
+    "tipo": "Hatch",
+    "ano": 2023,
+    "km": 48000,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 83200,
+    "fipe": 82700,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 17000,
+      "parcelas": 48,
+      "parcela": 2067,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0034",
+    "marca": "Fiat",
+    "modelo": "Pulse",
+    "versao": "Impetus 1.0 Turbo",
+    "tipo": "SUV",
+    "ano": 2024,
+    "km": 28800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 104500,
+    "fipe": 101600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2607,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0035",
+    "marca": "Chevrolet",
+    "modelo": "Onix Plus",
+    "versao": "LTZ 1.0 Turbo",
+    "tipo": "Sedã",
+    "ano": 2020,
+    "km": 65700,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Centro",
+    "preco": 66900,
+    "fipe": 68500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 13000,
+      "parcelas": 48,
+      "parcela": 1683,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0036",
+    "marca": "Fiat",
+    "modelo": "Pulse",
+    "versao": "Impetus 1.0 Turbo",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 4800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 117900,
+    "fipe": 120000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 24000,
+      "parcelas": 48,
+      "parcela": 2932,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0037",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "versao": "Altis Hybrid",
+    "tipo": "Sedã",
+    "ano": 2018,
+    "km": 119400,
+    "cambio": "Automático",
+    "combustivel": "Híbrido",
+    "cor": "Branco",
+    "loja": "Marés Litoral",
+    "preco": 90600,
+    "fipe": 86300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 18000,
+      "parcelas": 48,
+      "parcela": 2267,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0038",
+    "marca": "Chevrolet",
+    "modelo": "Onix",
+    "versao": "LT 1.0 Turbo",
+    "tipo": "Hatch",
+    "ano": 2018,
+    "km": 142900,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 54000,
+    "fipe": 51500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 11000,
+      "parcelas": 48,
+      "parcela": 1343,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0039",
+    "marca": "Volkswagen",
+    "modelo": "Amarok",
+    "versao": "Extreme V6",
+    "tipo": "Picape",
+    "ano": 2018,
+    "km": 93700,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Preto",
+    "loja": "Marés Litoral",
+    "preco": 159400,
+    "fipe": 169800,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 32000,
+      "parcelas": 48,
+      "parcela": 3978,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0040",
+    "marca": "Chevrolet",
+    "modelo": "Onix",
+    "versao": "Premier 1.0 Turbo",
+    "tipo": "Hatch",
+    "ano": 2022,
+    "km": 41300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Centro",
+    "preco": 71900,
+    "fipe": 69000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 14000,
+      "parcelas": 48,
+      "parcela": 1808,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0041",
+    "marca": "Honda",
+    "modelo": "HR-V",
+    "versao": "Advance 1.5 Turbo",
+    "tipo": "SUV",
+    "ano": 2018,
+    "km": 78000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Zona Norte",
+    "preco": 87500,
+    "fipe": 87500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 18000,
+      "parcelas": 48,
+      "parcela": 2170,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0042",
+    "marca": "Jeep",
+    "modelo": "Renegade",
+    "versao": "Longitude 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2022,
+    "km": 49100,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 107100,
+    "fipe": 110000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2688,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0043",
+    "marca": "Fiat",
+    "modelo": "Pulse",
+    "versao": "Impetus 1.0 Turbo",
+    "tipo": "SUV",
+    "ano": 2021,
+    "km": 64800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 76500,
+    "fipe": 79100,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 15000,
+      "parcelas": 48,
+      "parcela": 1920,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0044",
+    "marca": "Chevrolet",
+    "modelo": "Tracker",
+    "versao": "LT 1.0 Turbo",
+    "tipo": "SUV",
+    "ano": 2024,
+    "km": 42500,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 129400,
+    "fipe": 130900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 26000,
+      "parcelas": 48,
+      "parcela": 3229,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0045",
+    "marca": "Volkswagen",
+    "modelo": "Virtus",
+    "versao": "Exclusive 250 TSI",
+    "tipo": "Sedã",
+    "ano": 2018,
+    "km": 90300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 62300,
+    "fipe": 63000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 12000,
+      "parcelas": 48,
+      "parcela": 1571,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0046",
+    "marca": "Nissan",
+    "modelo": "Versa",
+    "versao": "Exclusive 1.6",
+    "tipo": "Sedã",
+    "ano": 2026,
+    "km": 3200,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 115000,
+    "fipe": 120800,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 23000,
+      "parcelas": 48,
+      "parcela": 2873,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0047",
+    "marca": "Toyota",
+    "modelo": "Corolla Cross",
+    "versao": "XRX Hybrid",
+    "tipo": "SUV",
+    "ano": 2025,
+    "km": 16800,
+    "cambio": "Automático",
+    "combustivel": "Híbrido",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 167000,
+    "fipe": 170200,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 33000,
+      "parcelas": 48,
+      "parcela": 4184,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0048",
+    "marca": "Chevrolet",
+    "modelo": "S10",
+    "versao": "LTZ 2.8 4x4",
+    "tipo": "Picape",
+    "ano": 2024,
+    "km": 17400,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Preto",
+    "loja": "Marés Litoral",
+    "preco": 238300,
+    "fipe": 250400,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 48000,
+      "parcelas": 48,
+      "parcela": 5942,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0049",
+    "marca": "Volkswagen",
+    "modelo": "T-Cross",
+    "versao": "Comfortline 200 TSI",
+    "tipo": "SUV",
+    "ano": 2025,
+    "km": 12200,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 140700,
+    "fipe": 135500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 28000,
+      "parcelas": 48,
+      "parcela": 3519,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0050",
+    "marca": "Volkswagen",
+    "modelo": "Amarok",
+    "versao": "Extreme V6",
+    "tipo": "Picape",
+    "ano": 2018,
+    "km": 118800,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 155000,
+    "fipe": 163400,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 31000,
+      "parcelas": 48,
+      "parcela": 3872,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0051",
+    "marca": "Jeep",
+    "modelo": "Renegade",
+    "versao": "Trailhawk 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2019,
+    "km": 110500,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Centro",
+    "preco": 86100,
+    "fipe": 87600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 17000,
+      "parcelas": 48,
+      "parcela": 2158,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0052",
+    "marca": "Renault",
+    "modelo": "Duster",
+    "versao": "Iconic 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 6800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 119500,
+    "fipe": 123500,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 24000,
+      "parcelas": 48,
+      "parcela": 2982,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0053",
+    "marca": "Volkswagen",
+    "modelo": "Nivus",
+    "versao": "Highline 200 TSI",
+    "tipo": "SUV",
+    "ano": 2025,
+    "km": 16800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Centro",
+    "preco": 122100,
+    "fipe": 128800,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 24000,
+      "parcelas": 48,
+      "parcela": 3063,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0054",
+    "marca": "Renault",
+    "modelo": "Duster",
+    "versao": "Intense 1.6",
+    "tipo": "SUV",
+    "ano": 2021,
+    "km": 44100,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 73500,
+    "fipe": 78900,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 15000,
+      "parcelas": 48,
+      "parcela": 1827,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0055",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "versao": "Drive 1.0",
+    "tipo": "Hatch",
+    "ano": 2019,
+    "km": 52900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Centro",
+    "preco": 50800,
+    "fipe": 48500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 10000,
+      "parcelas": 48,
+      "parcela": 1274,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0056",
+    "marca": "Jeep",
+    "modelo": "Renegade",
+    "versao": "Trailhawk 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Centro",
+    "preco": 149100,
+    "fipe": 153700,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 30000,
+      "parcelas": 48,
+      "parcela": 3719,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0057",
+    "marca": "Chevrolet",
+    "modelo": "Tracker",
+    "versao": "Premier 1.2 Turbo",
+    "tipo": "SUV",
+    "ano": 2020,
+    "km": 76800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Zona Norte",
+    "preco": 96100,
+    "fipe": 91000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2407,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0058",
+    "marca": "Chevrolet",
+    "modelo": "Onix Plus",
+    "versao": "Premier 1.0 Turbo",
+    "tipo": "Sedã",
+    "ano": 2021,
+    "km": 64800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Centro",
+    "preco": 73000,
+    "fipe": 71200,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 15000,
+      "parcelas": 48,
+      "parcela": 1811,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0059",
+    "marca": "Volkswagen",
+    "modelo": "Amarok",
+    "versao": "Extreme V6",
+    "tipo": "Picape",
+    "ano": 2020,
+    "km": 75800,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 191100,
+    "fipe": 196700,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 38000,
+      "parcelas": 48,
+      "parcela": 4780,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0060",
+    "marca": "Volkswagen",
+    "modelo": "Amarok",
+    "versao": "Extreme V6",
+    "tipo": "Picape",
+    "ano": 2025,
+    "km": 17900,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 310000,
+    "fipe": 296900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 62000,
+      "parcelas": 48,
+      "parcela": 7744,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0061",
+    "marca": "Honda",
+    "modelo": "Civic",
+    "versao": "EXL 2.0",
+    "tipo": "Sedã",
+    "ano": 2026,
+    "km": 6100,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Centro",
+    "preco": 173200,
+    "fipe": 172300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 35000,
+      "parcelas": 48,
+      "parcela": 4315,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0062",
+    "marca": "Renault",
+    "modelo": "Kwid",
+    "versao": "Intense 1.0",
+    "tipo": "Hatch",
+    "ano": 2025,
+    "km": 13600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 61000,
+    "fipe": 62000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 12000,
+      "parcelas": 48,
+      "parcela": 1530,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0063",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "versao": "Drive 1.0",
+    "tipo": "Hatch",
+    "ano": 2025,
+    "km": 6700,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Centro",
+    "preco": 81200,
+    "fipe": 80500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 16000,
+      "parcelas": 48,
+      "parcela": 1791,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0064",
+    "marca": "Volkswagen",
+    "modelo": "Amarok",
+    "versao": "Extreme V6",
+    "tipo": "Picape",
+    "ano": 2017,
+    "km": 132500,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Preto",
+    "loja": "Marés Litoral",
+    "preco": 163000,
+    "fipe": 156400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 33000,
+      "parcelas": 48,
+      "parcela": 4059,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0065",
+    "marca": "Toyota",
+    "modelo": "Corolla Cross",
+    "versao": "XRE 2.0",
+    "tipo": "SUV",
+    "ano": 2025,
+    "km": 16800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Litoral",
+    "preco": 174400,
+    "fipe": 170200,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 35000,
+      "parcelas": 48,
+      "parcela": 4353,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0066",
+    "marca": "Volkswagen",
+    "modelo": "Polo",
+    "versao": "Track 1.0",
+    "tipo": "Hatch",
+    "ano": 2026,
+    "km": 8700,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Centro",
+    "preco": 98700,
+    "fipe": 99500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 20000,
+      "parcelas": 48,
+      "parcela": 2457,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0067",
+    "marca": "Volkswagen",
+    "modelo": "T-Cross",
+    "versao": "Comfortline 200 TSI",
+    "tipo": "SUV",
+    "ano": 2022,
+    "km": 45700,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Zona Norte",
+    "preco": 113800,
+    "fipe": 112400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 23000,
+      "parcelas": 48,
+      "parcela": 2835,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0068",
+    "marca": "Renault",
+    "modelo": "Duster",
+    "versao": "Intense 1.6",
+    "tipo": "SUV",
+    "ano": 2022,
+    "km": 54300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Litoral",
+    "preco": 89900,
+    "fipe": 93800,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 18000,
+      "parcelas": 48,
+      "parcela": 1975,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0069",
+    "marca": "Nissan",
+    "modelo": "Kicks",
+    "versao": "Advance 1.6",
+    "tipo": "SUV",
+    "ano": 2022,
+    "km": 73700,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 96600,
+    "fipe": 96600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2423,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0070",
+    "marca": "Honda",
+    "modelo": "Civic",
+    "versao": "EXL 2.0",
+    "tipo": "Sedã",
+    "ano": 2018,
+    "km": 88300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Centro",
+    "preco": 88100,
+    "fipe": 86300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 18000,
+      "parcelas": 48,
+      "parcela": 2189,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0071",
+    "marca": "Chevrolet",
+    "modelo": "Tracker",
+    "versao": "Premier 1.2 Turbo",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 1900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Zona Norte",
+    "preco": 152900,
+    "fipe": 144600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 31000,
+      "parcelas": 48,
+      "parcela": 3806,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0072",
+    "marca": "Fiat",
+    "modelo": "Pulse",
+    "versao": "Impetus 1.0 Turbo",
+    "tipo": "SUV",
+    "ano": 2024,
+    "km": 40000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Centro",
+    "preco": 96700,
+    "fipe": 101000,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2426,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0073",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "versao": "Trekking 1.3",
+    "tipo": "Hatch",
+    "ano": 2026,
+    "km": 2600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 97100,
+    "fipe": 91600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2145,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0074",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "versao": "GLi 2.0",
+    "tipo": "Sedã",
+    "ano": 2018,
+    "km": 132400,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Litoral",
+    "preco": 84100,
+    "fipe": 84300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 17000,
+      "parcelas": 48,
+      "parcela": 2095,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0075",
+    "marca": "Volkswagen",
+    "modelo": "T-Cross",
+    "versao": "Highline 250 TSI",
+    "tipo": "SUV",
+    "ano": 2020,
+    "km": 105600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 93800,
+    "fipe": 96700,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2336,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0076",
+    "marca": "Volkswagen",
+    "modelo": "Virtus",
+    "versao": "Comfortline 170 TSI",
+    "tipo": "Sedã",
+    "ano": 2022,
+    "km": 51000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 97500,
+    "fipe": 93300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 20000,
+      "parcelas": 48,
+      "parcela": 2420,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0077",
+    "marca": "Renault",
+    "modelo": "Kwid",
+    "versao": "Zen 1.0",
+    "tipo": "Hatch",
+    "ano": 2025,
+    "km": 9900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Zona Norte",
+    "preco": 66400,
+    "fipe": 66900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 13000,
+      "parcelas": 48,
+      "parcela": 1667,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0078",
+    "marca": "Fiat",
+    "modelo": "Fastback",
+    "versao": "Audace 1.0 Turbo",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 9500,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Centro",
+    "preco": 138200,
+    "fipe": 146900,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 28000,
+      "parcelas": 48,
+      "parcela": 3441,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0079",
+    "marca": "Chevrolet",
+    "modelo": "S10",
+    "versao": "LTZ 2.8 4x4",
+    "tipo": "Picape",
+    "ano": 2020,
+    "km": 64900,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Cinza",
+    "loja": "Marés Zona Norte",
+    "preco": 163600,
+    "fipe": 169000,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 33000,
+      "parcelas": 48,
+      "parcela": 3587,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0080",
+    "marca": "Chevrolet",
+    "modelo": "Tracker",
+    "versao": "Premier 1.2 Turbo",
+    "tipo": "SUV",
+    "ano": 2023,
+    "km": 37500,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 114300,
+    "fipe": 116100,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 23000,
+      "parcelas": 48,
+      "parcela": 2851,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0081",
+    "marca": "Chevrolet",
+    "modelo": "Tracker",
+    "versao": "Premier 1.2 Turbo",
+    "tipo": "SUV",
+    "ano": 2023,
+    "km": 40800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 108800,
+    "fipe": 116800,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 22000,
+      "parcelas": 48,
+      "parcela": 2710,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0082",
+    "marca": "Toyota",
+    "modelo": "Hilux",
+    "versao": "SRV 2.8 4x4",
+    "tipo": "Picape",
+    "ano": 2024,
+    "km": 30600,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Preto",
+    "loja": "Marés Zona Norte",
+    "preco": 268300,
+    "fipe": 254100,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 54000,
+      "parcelas": 48,
+      "parcela": 6691,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0083",
+    "marca": "Honda",
+    "modelo": "HR-V",
+    "versao": "EXL 1.5",
+    "tipo": "SUV",
+    "ano": 2019,
+    "km": 122100,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Centro",
+    "preco": 93000,
+    "fipe": 92100,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2311,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0084",
+    "marca": "Chevrolet",
+    "modelo": "Onix Plus",
+    "versao": "Premier 1.0 Turbo",
+    "tipo": "Sedã",
+    "ano": 2022,
+    "km": 40300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Zona Norte",
+    "preco": 78900,
+    "fipe": 79300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 16000,
+      "parcelas": 48,
+      "parcela": 1964,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0085",
+    "marca": "Fiat",
+    "modelo": "Toro",
+    "versao": "Freedom 1.3 Turbo",
+    "tipo": "Picape",
+    "ano": 2024,
+    "km": 34300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Zona Norte",
+    "preco": 156200,
+    "fipe": 158200,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 31000,
+      "parcelas": 48,
+      "parcela": 3909,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0086",
+    "marca": "Honda",
+    "modelo": "City Hatchback",
+    "versao": "EX 1.5",
+    "tipo": "Hatch",
+    "ano": 2024,
+    "km": 21600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 105300,
+    "fipe": 99900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2632,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0087",
+    "marca": "Volkswagen",
+    "modelo": "Polo",
+    "versao": "Track 1.0",
+    "tipo": "Hatch",
+    "ano": 2018,
+    "km": 65200,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Litoral",
+    "preco": 55200,
+    "fipe": 53000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 11000,
+      "parcelas": 48,
+      "parcela": 1380,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0088",
+    "marca": "Renault",
+    "modelo": "Kwid",
+    "versao": "Intense 1.0",
+    "tipo": "Hatch",
+    "ano": 2021,
+    "km": 69600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Zona Norte",
+    "preco": 45300,
+    "fipe": 47400,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 9000,
+      "parcelas": 48,
+      "parcela": 1133,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0089",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "versao": "Altis Hybrid",
+    "tipo": "Sedã",
+    "ano": 2019,
+    "km": 86200,
+    "cambio": "Automático",
+    "combustivel": "Híbrido",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 89900,
+    "fipe": 96400,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 18000,
+      "parcelas": 48,
+      "parcela": 1975,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0090",
+    "marca": "Chevrolet",
+    "modelo": "Onix Plus",
+    "versao": "LTZ 1.0 Turbo",
+    "tipo": "Sedã",
+    "ano": 2026,
+    "km": 2000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 104700,
+    "fipe": 107700,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2299,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0091",
+    "marca": "Toyota",
+    "modelo": "Hilux",
+    "versao": "SRX 2.8 4x4",
+    "tipo": "Picape",
+    "ano": 2025,
+    "km": 19500,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Cinza",
+    "loja": "Marés Zona Norte",
+    "preco": 300300,
+    "fipe": 283800,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 60000,
+      "parcelas": 48,
+      "parcela": 7503,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0092",
+    "marca": "Honda",
+    "modelo": "Civic",
+    "versao": "Touring 1.5 Turbo",
+    "tipo": "Sedã",
+    "ano": 2022,
+    "km": 70200,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 122100,
+    "fipe": 125500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 24000,
+      "parcelas": 48,
+      "parcela": 3063,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0093",
+    "marca": "Fiat",
+    "modelo": "Toro",
+    "versao": "Volcano 2.2 Diesel",
+    "tipo": "Picape",
+    "ano": 2024,
+    "km": 20400,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Vermelho",
+    "loja": "Marés Zona Norte",
+    "preco": 155600,
+    "fipe": 149300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 31000,
+      "parcelas": 48,
+      "parcela": 3422,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0094",
+    "marca": "Volkswagen",
+    "modelo": "Polo",
+    "versao": "Highline 170 TSI",
+    "tipo": "Hatch",
+    "ano": 2017,
+    "km": 95200,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 49500,
+    "fipe": 51100,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 10000,
+      "parcelas": 48,
+      "parcela": 1233,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0095",
+    "marca": "Fiat",
+    "modelo": "Toro",
+    "versao": "Volcano 2.2 Diesel",
+    "tipo": "Picape",
+    "ano": 2019,
+    "km": 51600,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Branco",
+    "loja": "Marés Litoral",
+    "preco": 97400,
+    "fipe": 102000,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2448,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0096",
+    "marca": "Toyota",
+    "modelo": "Yaris",
+    "versao": "XLS 1.5",
+    "tipo": "Hatch",
+    "ano": 2024,
+    "km": 31900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Zona Norte",
+    "preco": 88400,
+    "fipe": 90100,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 18000,
+      "parcelas": 48,
+      "parcela": 2198,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0097",
+    "marca": "Honda",
+    "modelo": "Civic",
+    "versao": "EXL 2.0",
+    "tipo": "Sedã",
+    "ano": 2025,
+    "km": 20000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Litoral",
+    "preco": 161000,
+    "fipe": 159800,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 32000,
+      "parcelas": 48,
+      "parcela": 3543,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0098",
+    "marca": "Volkswagen",
+    "modelo": "Nivus",
+    "versao": "Comfortline 200 TSI",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 1700,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 140000,
+    "fipe": 141000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 28000,
+      "parcelas": 48,
+      "parcela": 3497,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0099",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "versao": "Trekking 1.3",
+    "tipo": "Hatch",
+    "ano": 2019,
+    "km": 85000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Centro",
+    "preco": 53800,
+    "fipe": 52100,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 11000,
+      "parcelas": 48,
+      "parcela": 1176,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0100",
+    "marca": "Renault",
+    "modelo": "Duster",
+    "versao": "Intense 1.6",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 3600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Litoral",
+    "preco": 127100,
+    "fipe": 122400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 25000,
+      "parcelas": 48,
+      "parcela": 3188,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0101",
+    "marca": "Volkswagen",
+    "modelo": "Nivus",
+    "versao": "Highline 200 TSI",
+    "tipo": "SUV",
+    "ano": 2024,
+    "km": 16300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Centro",
+    "preco": 120600,
+    "fipe": 120700,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 24000,
+      "parcelas": 48,
+      "parcela": 3016,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0102",
+    "marca": "Toyota",
+    "modelo": "Corolla Cross",
+    "versao": "XRE 2.0",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 4800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 192500,
+    "fipe": 185000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 39000,
+      "parcelas": 48,
+      "parcela": 4793,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0103",
+    "marca": "Hyundai",
+    "modelo": "Creta",
+    "versao": "Ultimate 2.0",
+    "tipo": "SUV",
+    "ano": 2017,
+    "km": 60500,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Zona Norte",
+    "preco": 79400,
+    "fipe": 77900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 16000,
+      "parcelas": 48,
+      "parcela": 1980,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0104",
+    "marca": "Toyota",
+    "modelo": "Yaris",
+    "versao": "XL 1.5",
+    "tipo": "Hatch",
+    "ano": 2018,
+    "km": 115000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Centro",
+    "preco": 54100,
+    "fipe": 52400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 11000,
+      "parcelas": 48,
+      "parcela": 1346,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0105",
+    "marca": "Fiat",
+    "modelo": "Strada",
+    "versao": "Volcano 1.0 Turbo",
+    "tipo": "Picape",
+    "ano": 2021,
+    "km": 72200,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Centro",
+    "preco": 71200,
+    "fipe": 74200,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 14000,
+      "parcelas": 48,
+      "parcela": 1571,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0106",
+    "marca": "Fiat",
+    "modelo": "Toro",
+    "versao": "Freedom 1.3 Turbo",
+    "tipo": "Picape",
+    "ano": 2017,
+    "km": 133400,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Centro",
+    "preco": 85600,
+    "fipe": 90800,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 17000,
+      "parcelas": 48,
+      "parcela": 2142,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0107",
+    "marca": "Volkswagen",
+    "modelo": "Amarok",
+    "versao": "Extreme V6",
+    "tipo": "Picape",
+    "ano": 2020,
+    "km": 79100,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Preto",
+    "loja": "Marés Zona Norte",
+    "preco": 183500,
+    "fipe": 185200,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 37000,
+      "parcelas": 48,
+      "parcela": 4574,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0108",
+    "marca": "Volkswagen",
+    "modelo": "Polo",
+    "versao": "Track 1.0",
+    "tipo": "Hatch",
+    "ano": 2019,
+    "km": 132700,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Litoral",
+    "preco": 55600,
+    "fipe": 56600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 11000,
+      "parcelas": 48,
+      "parcela": 1393,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0109",
+    "marca": "Hyundai",
+    "modelo": "Creta",
+    "versao": "Comfort 1.0 Turbo",
+    "tipo": "SUV",
+    "ano": 2025,
+    "km": 15300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Centro",
+    "preco": 140300,
+    "fipe": 149500,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 28000,
+      "parcelas": 48,
+      "parcela": 3507,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0110",
+    "marca": "Toyota",
+    "modelo": "Corolla Cross",
+    "versao": "XRE 2.0",
+    "tipo": "SUV",
+    "ano": 2024,
+    "km": 46400,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 167000,
+    "fipe": 164400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 33000,
+      "parcelas": 48,
+      "parcela": 4184,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0111",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "versao": "Trekking 1.3",
+    "tipo": "Hatch",
+    "ano": 2024,
+    "km": 17900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 74300,
+    "fipe": 77600,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 15000,
+      "parcelas": 48,
+      "parcela": 1852,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0112",
+    "marca": "Jeep",
+    "modelo": "Compass",
+    "versao": "Longitude 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2021,
+    "km": 75300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 132300,
+    "fipe": 131600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 26000,
+      "parcelas": 48,
+      "parcela": 3319,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0113",
+    "marca": "Renault",
+    "modelo": "Duster",
+    "versao": "Iconic 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 1100,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 121100,
+    "fipe": 121900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 24000,
+      "parcelas": 48,
+      "parcela": 3032,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0114",
+    "marca": "Toyota",
+    "modelo": "Yaris",
+    "versao": "XL 1.5",
+    "tipo": "Hatch",
+    "ano": 2025,
+    "km": 18100,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 101100,
+    "fipe": 98900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 20000,
+      "parcelas": 48,
+      "parcela": 2532,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0115",
+    "marca": "Renault",
+    "modelo": "Kwid",
+    "versao": "Intense 1.0",
+    "tipo": "Hatch",
+    "ano": 2022,
+    "km": 71700,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 48800,
+    "fipe": 50200,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 10000,
+      "parcelas": 48,
+      "parcela": 1212,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0116",
+    "marca": "Volkswagen",
+    "modelo": "Virtus",
+    "versao": "Comfortline 170 TSI",
+    "tipo": "Sedã",
+    "ano": 2022,
+    "km": 31600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Centro",
+    "preco": 86400,
+    "fipe": 92500,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 17000,
+      "parcelas": 48,
+      "parcela": 2167,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0117",
+    "marca": "Renault",
+    "modelo": "Kwid",
+    "versao": "Intense 1.0",
+    "tipo": "Hatch",
+    "ano": 2023,
+    "km": 44000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Zona Norte",
+    "preco": 49900,
+    "fipe": 52000,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 10000,
+      "parcelas": 48,
+      "parcela": 1246,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0118",
+    "marca": "Honda",
+    "modelo": "HR-V",
+    "versao": "EXL 1.5",
+    "tipo": "SUV",
+    "ano": 2017,
+    "km": 150600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Zona Norte",
+    "preco": 86800,
+    "fipe": 85500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 17000,
+      "parcelas": 48,
+      "parcela": 2179,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0119",
+    "marca": "Honda",
+    "modelo": "City Hatchback",
+    "versao": "Touring 1.5",
+    "tipo": "Hatch",
+    "ano": 2025,
+    "km": 16800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Zona Norte",
+    "preco": 114800,
+    "fipe": 110400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 23000,
+      "parcelas": 48,
+      "parcela": 2866,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0120",
+    "marca": "Renault",
+    "modelo": "Duster",
+    "versao": "Intense 1.6",
+    "tipo": "SUV",
+    "ano": 2024,
+    "km": 31800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 111400,
+    "fipe": 105500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 22000,
+      "parcelas": 48,
+      "parcela": 2456,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0121",
+    "marca": "Volkswagen",
+    "modelo": "Amarok",
+    "versao": "Highline V6",
+    "tipo": "Picape",
+    "ano": 2020,
+    "km": 97500,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Cinza",
+    "loja": "Marés Centro",
+    "preco": 177400,
+    "fipe": 186000,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 35000,
+      "parcelas": 48,
+      "parcela": 3911,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0122",
+    "marca": "Volkswagen",
+    "modelo": "Amarok",
+    "versao": "Highline V6",
+    "tipo": "Picape",
+    "ano": 2019,
+    "km": 47600,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Vermelho",
+    "loja": "Marés Centro",
+    "preco": 183400,
+    "fipe": 173100,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 37000,
+      "parcelas": 48,
+      "parcela": 4571,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0123",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "versao": "Trekking 1.3",
+    "tipo": "Hatch",
+    "ano": 2020,
+    "km": 60600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 59200,
+    "fipe": 56400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 12000,
+      "parcelas": 48,
+      "parcela": 1296,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0124",
+    "marca": "Hyundai",
+    "modelo": "Creta",
+    "versao": "Ultimate 2.0",
+    "tipo": "SUV",
+    "ano": 2023,
+    "km": 26800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Zona Norte",
+    "preco": 120400,
+    "fipe": 126300,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 24000,
+      "parcelas": 48,
+      "parcela": 3010,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0125",
+    "marca": "Volkswagen",
+    "modelo": "Virtus",
+    "versao": "Exclusive 250 TSI",
+    "tipo": "Sedã",
+    "ano": 2018,
+    "km": 55300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Centro",
+    "preco": 59000,
+    "fipe": 63200,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 12000,
+      "parcelas": 48,
+      "parcela": 1468,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0126",
+    "marca": "Volkswagen",
+    "modelo": "Virtus",
+    "versao": "Comfortline 170 TSI",
+    "tipo": "Sedã",
+    "ano": 2023,
+    "km": 32100,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Litoral",
+    "preco": 104300,
+    "fipe": 99300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2601,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0127",
+    "marca": "Volkswagen",
+    "modelo": "Virtus",
+    "versao": "Exclusive 250 TSI",
+    "tipo": "Sedã",
+    "ano": 2024,
+    "km": 31400,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 106800,
+    "fipe": 101300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2679,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0128",
+    "marca": "Chevrolet",
+    "modelo": "S10",
+    "versao": "High Country 2.8 4x4",
+    "tipo": "Picape",
+    "ano": 2025,
+    "km": 11100,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Prata",
+    "loja": "Marés Centro",
+    "preco": 263100,
+    "fipe": 265600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 53000,
+      "parcelas": 48,
+      "parcela": 6560,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0129",
+    "marca": "Honda",
+    "modelo": "Civic",
+    "versao": "Touring 1.5 Turbo",
+    "tipo": "Sedã",
+    "ano": 2018,
+    "km": 135400,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Centro",
+    "preco": 84900,
+    "fipe": 85500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 17000,
+      "parcelas": 48,
+      "parcela": 1865,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0130",
+    "marca": "Toyota",
+    "modelo": "Yaris",
+    "versao": "XLS 1.5",
+    "tipo": "Hatch",
+    "ano": 2025,
+    "km": 26800,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Zona Norte",
+    "preco": 94900,
+    "fipe": 92700,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2370,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0131",
+    "marca": "Fiat",
+    "modelo": "Fastback",
+    "versao": "Impetus 1.0 Turbo",
+    "tipo": "SUV",
+    "ano": 2025,
+    "km": 16800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 135300,
+    "fipe": 133400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 27000,
+      "parcelas": 48,
+      "parcela": 3382,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0132",
+    "marca": "Nissan",
+    "modelo": "Versa",
+    "versao": "Exclusive 1.6",
+    "tipo": "Sedã",
+    "ano": 2021,
+    "km": 54300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 71500,
+    "fipe": 75300,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 14000,
+      "parcelas": 48,
+      "parcela": 1795,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0133",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "versao": "Drive 1.0",
+    "tipo": "Hatch",
+    "ano": 2021,
+    "km": 34400,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 54200,
+    "fipe": 56600,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 11000,
+      "parcelas": 48,
+      "parcela": 1349,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0134",
+    "marca": "Toyota",
+    "modelo": "Yaris",
+    "versao": "XL 1.5",
+    "tipo": "Hatch",
+    "ano": 2023,
+    "km": 25600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Zona Norte",
+    "preco": 76300,
+    "fipe": 78900,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 15000,
+      "parcelas": 48,
+      "parcela": 1684,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0135",
+    "marca": "Nissan",
+    "modelo": "Versa",
+    "versao": "Exclusive 1.6",
+    "tipo": "Sedã",
+    "ano": 2024,
+    "km": 22000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 103000,
+    "fipe": 100900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2560,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0136",
+    "marca": "Toyota",
+    "modelo": "Corolla Cross",
+    "versao": "XRE 2.0",
+    "tipo": "SUV",
+    "ano": 2024,
+    "km": 28800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 157700,
+    "fipe": 156600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 32000,
+      "parcelas": 48,
+      "parcela": 3925,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0137",
+    "marca": "Renault",
+    "modelo": "Kwid",
+    "versao": "Intense 1.0",
+    "tipo": "Hatch",
+    "ano": 2024,
+    "km": 32400,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Litoral",
+    "preco": 59500,
+    "fipe": 59000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 12000,
+      "parcelas": 48,
+      "parcela": 1305,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0138",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "versao": "Drive 1.0",
+    "tipo": "Hatch",
+    "ano": 2018,
+    "km": 58300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Centro",
+    "preco": 44200,
+    "fipe": 46900,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 9000,
+      "parcelas": 48,
+      "parcela": 967,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0139",
+    "marca": "Volkswagen",
+    "modelo": "Nivus",
+    "versao": "Highline 200 TSI",
+    "tipo": "SUV",
+    "ano": 2021,
+    "km": 42500,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Litoral",
+    "preco": 87700,
+    "fipe": 89400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 18000,
+      "parcelas": 48,
+      "parcela": 2176,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0140",
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "versao": "GLi 2.0",
+    "tipo": "Sedã",
+    "ano": 2024,
+    "km": 30900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Zona Norte",
+    "preco": 139400,
+    "fipe": 136100,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 28000,
+      "parcelas": 48,
+      "parcela": 3478,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0141",
+    "marca": "Jeep",
+    "modelo": "Compass",
+    "versao": "Limited 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2021,
+    "km": 57500,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 130500,
+    "fipe": 127300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 26000,
+      "parcelas": 48,
+      "parcela": 3263,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0142",
+    "marca": "Fiat",
+    "modelo": "Pulse",
+    "versao": "Drive 1.3",
+    "tipo": "SUV",
+    "ano": 2023,
+    "km": 53800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 96700,
+    "fipe": 97500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2426,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0143",
+    "marca": "Volkswagen",
+    "modelo": "Amarok",
+    "versao": "Extreme V6",
+    "tipo": "Picape",
+    "ano": 2017,
+    "km": 100400,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 163800,
+    "fipe": 167400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 33000,
+      "parcelas": 48,
+      "parcela": 4084,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0144",
+    "marca": "Fiat",
+    "modelo": "Strada",
+    "versao": "Volcano 1.0 Turbo",
+    "tipo": "Picape",
+    "ano": 2026,
+    "km": 4800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Litoral",
+    "preco": 109000,
+    "fipe": 110000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 22000,
+      "parcelas": 48,
+      "parcela": 2717,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0145",
+    "marca": "Volkswagen",
+    "modelo": "Virtus",
+    "versao": "Comfortline 170 TSI",
+    "tipo": "Sedã",
+    "ano": 2023,
+    "km": 52600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Zona Norte",
+    "preco": 102600,
+    "fipe": 97200,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2548,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0146",
+    "marca": "Volkswagen",
+    "modelo": "T-Cross",
+    "versao": "Highline 250 TSI",
+    "tipo": "SUV",
+    "ano": 2020,
+    "km": 76800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 94900,
+    "fipe": 94000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2370,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0147",
+    "marca": "Toyota",
+    "modelo": "Hilux",
+    "versao": "SRV 2.8 4x4",
+    "tipo": "Picape",
+    "ano": 2017,
+    "km": 140300,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Preto",
+    "loja": "Marés Centro",
+    "preco": 160900,
+    "fipe": 157700,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 32000,
+      "parcelas": 48,
+      "parcela": 3541,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0148",
+    "marca": "Renault",
+    "modelo": "Duster",
+    "versao": "Intense 1.6",
+    "tipo": "SUV",
+    "ano": 2021,
+    "km": 44700,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Zona Norte",
+    "preco": 82500,
+    "fipe": 81600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 17000,
+      "parcelas": 48,
+      "parcela": 2045,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0149",
+    "marca": "Chevrolet",
+    "modelo": "Onix",
+    "versao": "LT 1.0 Turbo",
+    "tipo": "Hatch",
+    "ano": 2017,
+    "km": 163200,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 48900,
+    "fipe": 46800,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 10000,
+      "parcelas": 48,
+      "parcela": 1068,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0150",
+    "marca": "Fiat",
+    "modelo": "Fastback",
+    "versao": "Impetus 1.0 Turbo",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 1600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Litoral",
+    "preco": 141300,
+    "fipe": 139600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 28000,
+      "parcelas": 48,
+      "parcela": 3538,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0151",
+    "marca": "Hyundai",
+    "modelo": "Creta",
+    "versao": "Ultimate 2.0",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 4000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 164800,
+    "fipe": 166100,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 33000,
+      "parcelas": 48,
+      "parcela": 4115,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0152",
+    "marca": "Hyundai",
+    "modelo": "Creta",
+    "versao": "Ultimate 2.0",
+    "tipo": "SUV",
+    "ano": 2023,
+    "km": 44000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Litoral",
+    "preco": 129200,
+    "fipe": 121900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 26000,
+      "parcelas": 48,
+      "parcela": 3222,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0153",
+    "marca": "Honda",
+    "modelo": "City",
+    "versao": "EXL 1.5",
+    "tipo": "Sedã",
+    "ano": 2018,
+    "km": 142700,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 60800,
+    "fipe": 62600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 12000,
+      "parcelas": 48,
+      "parcela": 1524,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0154",
+    "marca": "Honda",
+    "modelo": "City Hatchback",
+    "versao": "Touring 1.5",
+    "tipo": "Hatch",
+    "ano": 2026,
+    "km": 1400,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Litoral",
+    "preco": 118400,
+    "fipe": 123500,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 24000,
+      "parcelas": 48,
+      "parcela": 2593,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0155",
+    "marca": "Chevrolet",
+    "modelo": "Onix Plus",
+    "versao": "LTZ 1.0 Turbo",
+    "tipo": "Sedã",
+    "ano": 2022,
+    "km": 79800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Centro",
+    "preco": 74500,
+    "fipe": 78900,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 15000,
+      "parcelas": 48,
+      "parcela": 1858,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0156",
+    "marca": "Hyundai",
+    "modelo": "HB20",
+    "versao": "Platinum 1.0 Turbo",
+    "tipo": "Hatch",
+    "ano": 2023,
+    "km": 35000,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Litoral",
+    "preco": 73400,
+    "fipe": 70500,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 15000,
+      "parcelas": 48,
+      "parcela": 1824,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0157",
+    "marca": "Nissan",
+    "modelo": "Versa",
+    "versao": "Advance 1.6",
+    "tipo": "Sedã",
+    "ano": 2022,
+    "km": 40100,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Centro",
+    "preco": 83600,
+    "fipe": 88500,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 17000,
+      "parcelas": 48,
+      "parcela": 1829,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0158",
+    "marca": "Fiat",
+    "modelo": "Pulse",
+    "versao": "Impetus 1.0 Turbo",
+    "tipo": "SUV",
+    "ano": 2022,
+    "km": 52800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Zona Norte",
+    "preco": 89000,
+    "fipe": 86000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 18000,
+      "parcelas": 48,
+      "parcela": 2217,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0159",
+    "marca": "Honda",
+    "modelo": "Civic",
+    "versao": "EXL 2.0",
+    "tipo": "Sedã",
+    "ano": 2024,
+    "km": 18200,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 156000,
+    "fipe": 149400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 31000,
+      "parcelas": 48,
+      "parcela": 3903,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0160",
+    "marca": "Jeep",
+    "modelo": "Renegade",
+    "versao": "Longitude 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2025,
+    "km": 8500,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Zona Norte",
+    "preco": 146200,
+    "fipe": 142400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 29000,
+      "parcelas": 48,
+      "parcela": 3219,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0161",
+    "marca": "Honda",
+    "modelo": "HR-V",
+    "versao": "EXL 1.5",
+    "tipo": "SUV",
+    "ano": 2025,
+    "km": 9400,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Litoral",
+    "preco": 159200,
+    "fipe": 159000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 32000,
+      "parcelas": 48,
+      "parcela": 3972,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0162",
+    "marca": "Toyota",
+    "modelo": "Yaris",
+    "versao": "XL 1.5",
+    "tipo": "Hatch",
+    "ano": 2021,
+    "km": 83800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Centro",
+    "preco": 72000,
+    "fipe": 70900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 14000,
+      "parcelas": 48,
+      "parcela": 1811,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0163",
+    "marca": "Renault",
+    "modelo": "Kwid",
+    "versao": "Zen 1.0",
+    "tipo": "Hatch",
+    "ano": 2019,
+    "km": 89100,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 35700,
+    "fipe": 37900,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 7000,
+      "parcelas": 48,
+      "parcela": 896,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0164",
+    "marca": "Fiat",
+    "modelo": "Toro",
+    "versao": "Volcano 2.2 Diesel",
+    "tipo": "Picape",
+    "ano": 2019,
+    "km": 56800,
+    "cambio": "Automático",
+    "combustivel": "Diesel",
+    "cor": "Azul",
+    "loja": "Marés Litoral",
+    "preco": 103200,
+    "fipe": 101200,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2567,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0165",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "versao": "Drive 1.0",
+    "tipo": "Hatch",
+    "ano": 2018,
+    "km": 75700,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Litoral",
+    "preco": 46300,
+    "fipe": 44700,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 9000,
+      "parcelas": 48,
+      "parcela": 1165,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0166",
+    "marca": "Fiat",
+    "modelo": "Strada",
+    "versao": "Freedom 1.3",
+    "tipo": "Picape",
+    "ano": 2024,
+    "km": 28800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Litoral",
+    "preco": 94800,
+    "fipe": 93100,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 19000,
+      "parcelas": 48,
+      "parcela": 2367,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0167",
+    "marca": "Renault",
+    "modelo": "Kwid",
+    "versao": "Intense 1.0",
+    "tipo": "Hatch",
+    "ano": 2020,
+    "km": 54400,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Litoral",
+    "preco": 42000,
+    "fipe": 42300,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 8000,
+      "parcelas": 48,
+      "parcela": 1062,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0168",
+    "marca": "Fiat",
+    "modelo": "Pulse",
+    "versao": "Drive 1.3",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 4800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Litoral",
+    "preco": 118500,
+    "fipe": 120000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 24000,
+      "parcelas": 48,
+      "parcela": 2951,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": []
+  },
+  {
+    "id": "MS0169",
+    "marca": "Jeep",
+    "modelo": "Renegade",
+    "versao": "Longitude 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2017,
+    "km": 68900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Zona Norte",
+    "preco": 74200,
+    "fipe": 72700,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 15000,
+      "parcelas": 48,
+      "parcela": 1848,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0170",
+    "marca": "Fiat",
+    "modelo": "Argo",
+    "versao": "Drive 1.0",
+    "tipo": "Hatch",
+    "ano": 2022,
+    "km": 51100,
+    "cambio": "Manual",
+    "combustivel": "Flex",
+    "cor": "Azul",
+    "loja": "Marés Centro",
+    "preco": 59700,
+    "fipe": 62400,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 12000,
+      "parcelas": 48,
+      "parcela": 1489,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0171",
+    "marca": "Fiat",
+    "modelo": "Fastback",
+    "versao": "Audace 1.0 Turbo",
+    "tipo": "SUV",
+    "ano": 2023,
+    "km": 29300,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Litoral",
+    "preco": 113700,
+    "fipe": 114000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 23000,
+      "parcelas": 48,
+      "parcela": 2832,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0172",
+    "marca": "Honda",
+    "modelo": "HR-V",
+    "versao": "Advance 1.5 Turbo",
+    "tipo": "SUV",
+    "ano": 2018,
+    "km": 153400,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Centro",
+    "preco": 82000,
+    "fipe": 85300,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 16000,
+      "parcelas": 48,
+      "parcela": 2061,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0173",
+    "marca": "Honda",
+    "modelo": "City Hatchback",
+    "versao": "Touring 1.5",
+    "tipo": "Hatch",
+    "ano": 2024,
+    "km": 28800,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Preto",
+    "loja": "Marés Centro",
+    "preco": 100100,
+    "fipe": 101600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 20000,
+      "parcelas": 48,
+      "parcela": 2501,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0174",
+    "marca": "Nissan",
+    "modelo": "Kicks",
+    "versao": "Advance 1.6",
+    "tipo": "SUV",
+    "ano": 2025,
+    "km": 23100,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Zona Norte",
+    "preco": 137200,
+    "fipe": 132200,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 27000,
+      "parcelas": 48,
+      "parcela": 3441,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      },
+      {
+        "label": "Garantia de fábrica",
+        "tipo": "confianca"
+      }
+    ]
+  },
+  {
+    "id": "MS0175",
+    "marca": "Chevrolet",
+    "modelo": "Onix",
+    "versao": "Premier 1.0 Turbo",
+    "tipo": "Hatch",
+    "ano": 2019,
+    "km": 111900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Branco",
+    "loja": "Marés Litoral",
+    "preco": 57200,
+    "fipe": 57400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 11000,
+      "parcelas": 48,
+      "parcela": 1443,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": false,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0176",
+    "marca": "Renault",
+    "modelo": "Kwid",
+    "versao": "Intense 1.0",
+    "tipo": "Hatch",
+    "ano": 2025,
+    "km": 9600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Centro",
+    "preco": 63200,
+    "fipe": 63600,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 13000,
+      "parcelas": 48,
+      "parcela": 1379,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": true,
+      "garantiaFabrica": true,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Único dono",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0177",
+    "marca": "Jeep",
+    "modelo": "Compass",
+    "versao": "Longitude 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2019,
+    "km": 119700,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Prata",
+    "loja": "Marés Centro",
+    "preco": 122300,
+    "fipe": 116900,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 24000,
+      "parcelas": 48,
+      "parcela": 3069,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": false,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0178",
+    "marca": "Toyota",
+    "modelo": "Yaris",
+    "versao": "XL 1.5",
+    "tipo": "Hatch",
+    "ano": 2023,
+    "km": 24600,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Vermelho",
+    "loja": "Marés Zona Norte",
+    "preco": 78200,
+    "fipe": 80800,
+    "abaixoFipe": true,
+    "simulacao": {
+      "entrada": 16000,
+      "parcelas": 48,
+      "parcela": 1708,
+      "taxaMensal": 0.0119
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": true,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0179",
+    "marca": "Jeep",
+    "modelo": "Compass",
+    "versao": "Limited 1.3 Turbo",
+    "tipo": "SUV",
+    "ano": 2017,
+    "km": 56900,
+    "cambio": "Automático",
+    "combustivel": "Flex",
+    "cor": "Cinza",
+    "loja": "Marés Litoral",
+    "preco": 104200,
+    "fipe": 103400,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 21000,
+      "parcelas": 48,
+      "parcela": 2598,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": false,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": false,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Baixa quilometragem",
+        "tipo": "procedencia"
+      }
+    ]
+  },
+  {
+    "id": "MS0180",
+    "marca": "Toyota",
+    "modelo": "Corolla Cross",
+    "versao": "XRX Hybrid",
+    "tipo": "SUV",
+    "ano": 2026,
+    "km": 4800,
+    "cambio": "Automático",
+    "combustivel": "Híbrido",
+    "cor": "Branco",
+    "loja": "Marés Litoral",
+    "preco": 195600,
+    "fipe": 185000,
+    "abaixoFipe": false,
+    "simulacao": {
+      "entrada": 39000,
+      "parcelas": 48,
+      "parcela": 4890,
+      "taxaMensal": 0.0179
+    },
+    "diferenciais": {
+      "laudoAprovado": true,
+      "unicoDono": false,
+      "garantiaFabrica": false,
+      "revisoesConcessionaria": true,
+      "baixaKm": true,
+      "ipvaPago": true,
+      "financiamentoEspecial": false,
+      "aceitaTroca": true
+    },
+    "selos": [
+      {
+        "label": "Laudo aprovado",
+        "tipo": "confianca"
+      },
+      {
+        "label": "Revisado na concessionária",
+        "tipo": "procedencia"
+      }
+    ]
+  }
+]

@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Marés Seminovos
 
-## Getting Started
+Site fictício feito para o desafio de Product Designer da AutoForce: listagem de seminovos e página do veículo, desktop e mobile, a partir do Figma do projeto.
 
-First, run the development server:
+## O que funciona
+
+- **Listagem** com os 180 carros da base fictícia (`data/carros.json`):
+  - busca com sugestões de modelos, marcas e buscas populares;
+  - atalhos por diferencial (laudo aprovado, único dono, garantia de fábrica, revisões, baixa km);
+  - filtros com contagem por opção, chips de filtros ativos e "Limpar filtros";
+  - ordenação, "Carregar mais", estados de carregando e sem resultado;
+  - favoritos salvos no navegador.
+- **Página do veículo** (`/carros/[id]`, gerada estaticamente para os 180 carros):
+  - galeria com setas, miniaturas e arrastar no celular;
+  - procedência com os mesmos 6 pontos para todo carro, inclusive o que não tem comprovação;
+  - simulador de parcela com entrada mínima de 20%, prazos e carro na troca;
+  - etapa de contato que monta a mensagem de WhatsApp com o carro, a simulação e a troca;
+  - barra de contato fixa (topo no desktop depois da galeria, rodapé no celular).
+
+## Rodar localmente
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js (App Router) · TypeScript · Tailwind CSS · Framer Motion. Fontes DM Sans e Barlow Semi Condensed via `next/font`. Fotos geradas com IA para o projeto.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projeto fictício. Telefones, endereços e WhatsApp não são reais.

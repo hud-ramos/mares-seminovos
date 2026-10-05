@@ -1,26 +1,85 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-azul: #3468e2;
+  --color-profundo: #00266e;
+  --color-tinta: #0e1430;
+  --color-creme: #f3f0e3;
+  --color-areia: #e8e5d8;
+  --color-branco: #fbfbfb;
+  --color-cinza: #6b6f76;
+  --color-verde: #15803d;
+  --color-linha: #dcd8cc;
+  --color-claro: #a9c9f5;
+  --color-nevoa: #eaf1fc;
+  --color-amarelo: #ffce00;
+  --color-amarelo-hover: #deb71f;
+
+  --font-sans: var(--font-dm-sans);
+  --font-display: var(--font-barlow);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-branco);
+  color: var(--color-tinta);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+/* Títulos de campanha: Barlow Semi Condensed Black Italic, caixa alta */
+.titulo-display {
+  font-family: var(--font-barlow), system-ui, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  line-height: 0.95;
+}
+
+/* Margens laterais do padrão: 20px no mobile, 40px a partir de 768px */
+@utility margem {
+  padding-inline: 20px;
+  @media (width >= 48rem) {
+    padding-inline: 40px;
+  }
+}
+
+.sem-barra {
+  scrollbar-width: none;
+}
+.sem-barra::-webkit-scrollbar {
+  display: none;
+}
+
+input[type="range"].faixa {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--color-areia);
+}
+input[type="range"].faixa::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: #fff;
+  border: 3px solid var(--color-azul);
+  cursor: pointer;
+}
+input[type="range"].faixa::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: #fff;
+  border: 3px solid var(--color-azul);
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-azul);
+  outline-offset: 2px;
 }
