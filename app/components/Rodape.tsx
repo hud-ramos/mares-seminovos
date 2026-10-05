@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Logo, Ondas } from "./Marca";
+import { Logo } from "./Marca";
 import { IconeInstagram, IconeWhatsApp, IconeYouTube } from "./icones";
 import { BotaoLink } from "./Botao";
 import { SITE } from "@/lib/site";
@@ -34,10 +34,9 @@ const LOJAS = [
 export default function Rodape() {
   return (
     <footer id="lojas" className="relative overflow-hidden bg-profundo text-creme">
-      <Ondas className="absolute -top-6 right-[-120px] w-[600px] opacity-[0.06] md:w-[820px]" />
       <div className="margem relative py-12 md:py-[72px]">
-        <div className="grid gap-10 lg:grid-cols-[340px_1fr] lg:gap-16">
-          <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-10 lg:flex-row lg:justify-between">
+          <div className="flex flex-col gap-5 lg:w-[340px] lg:shrink-0">
             <Logo altura={56} className="h-14 w-auto self-start" />
             <p className="max-w-[340px] text-[17px] leading-relaxed text-creme/80">
               Seminovos com procedência, laudo e garantia. Três lojas entre Santos e São Paulo.
@@ -46,7 +45,7 @@ export default function Rodape() {
               Falar no WhatsApp
             </BotaoLink>
           </div>
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:flex lg:gap-16">
             {COLUNAS.map((c) => (
               <div key={c.titulo}>
                 <h2 className="mb-4 font-bold">{c.titulo}</h2>

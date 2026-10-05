@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { Ondas } from "./Marca";
 import { IconeCarro, IconeSetaCima } from "./icones";
 import AvaliarTroca from "./AvaliarTroca";
 
@@ -25,13 +24,12 @@ export default function BannerTroca() {
       aria-labelledby="troca-titulo"
       className="relative col-span-full overflow-hidden rounded-2xl bg-azul text-creme"
     >
-      <Ondas className="absolute top-4 right-[30%] hidden w-[560px] opacity-[0.07] md:block" />
-      <div className="relative grid md:grid-cols-[1fr_minmax(0,40%)]">
+      <div className="relative grid md:grid-cols-[1fr_minmax(0,41%)]">
         <div className="flex flex-col gap-4 p-6 md:p-12">
           <SeloSupervalorizacao />
           <h2
             id="troca-titulo"
-            className="titulo-display text-[34px] md:text-[46px]"
+            className="titulo-display max-w-[560px] text-[34px] md:text-[46px]"
           >
             Seu carro atual paga parte do próximo
           </h2>

@@ -278,10 +278,10 @@ export default async function PaginaVeiculo({ params }: PageProps<"/carros/[id]"
         {/* Simule e troque */}
         <section id="simular" className="relative mt-16 scroll-mt-24 overflow-hidden bg-profundo text-creme lg:mt-20" aria-labelledby="simular-titulo">
           <span id="simular-troca" className="absolute top-0" aria-hidden />
-          <Ondas className="absolute top-24 left-[-160px] w-[620px] opacity-[0.07] lg:top-40 lg:w-[900px]" />
-          <div className="margem relative grid gap-10 py-12 lg:grid-cols-[1fr_440px] lg:gap-20 lg:py-20">
-            <Revelar className="lg:pt-24">
-              <h2 id="simular-titulo" className="titulo-display text-[40px] lg:text-[56px]">
+          <Ondas className="absolute top-[-56px] left-[-15%] w-[128%] max-w-none opacity-[0.03]" />
+          <div className="margem relative grid gap-10 py-12 lg:grid-cols-[minmax(0,640px)_440px] lg:justify-between lg:gap-[120px] lg:px-[120px] lg:py-[72px]">
+            <Revelar className="lg:pt-[122px]">
+              <h2 id="simular-titulo" className="titulo-display max-w-[540px] text-[40px] lg:text-[56px]">
                 Descubra sua parcela em 1 minuto
               </h2>
               <p className="mt-4 max-w-[640px] text-[17px] text-creme/85">
