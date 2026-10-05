@@ -29,7 +29,7 @@ import {
 } from "@/app/components/icones";
 import { CARROS, entradaMinima, foto, formatarPreco, galeria, nome, parcelaPadrao, parecidos, porId, url } from "@/lib/carros";
 import { ficha, ITENS_SERIE, LOJAS, motivos, type Motivo, procedencia, type Status } from "@/lib/veiculo";
-import { linkWhatsApp } from "@/lib/site";
+import { linkConversa } from "@/lib/links";
 
 export function generateStaticParams() {
   return CARROS.map((c) => ({ id: c.id.toLowerCase() }));
@@ -162,7 +162,7 @@ export default async function PaginaVeiculo({ params }: PageProps<"/carros/[id]"
               </p>
               <p className="text-sm text-cinza">com entrada de {formatarPreco(entradaMinima(c))}</p>
             </div>
-            <BotoesCompra carro={c} url={link} />
+            <BotoesCompra carro={c} />
             <div className="flex gap-3 border-t border-linha pt-4">
               <IconePin className="mt-0.5 shrink-0" />
               <div>
@@ -267,14 +267,9 @@ export default async function PaginaVeiculo({ params }: PageProps<"/carros/[id]"
                     </li>
                   ))}
                 </ul>
-                <a
-                  href={linkWhatsApp(`Olá! Quero receber o laudo completo do ${titulo} ${c.ano} (${c.id}).`)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3 inline-block font-medium text-azul underline"
-                >
+                <Link href={linkConversa({ carro: c.id, assunto: "laudo" })} className="mt-3 inline-block font-medium text-azul underline">
                   Pedir o laudo completo (PDF)
-                </a>
+                </Link>
               </Revelar>
             )}
           </div>
@@ -310,7 +305,7 @@ export default async function PaginaVeiculo({ params }: PageProps<"/carros/[id]"
                 })}
               </ul>
             </Revelar>
-            <Simulador carro={c} url={link} />
+            <Simulador carro={c} />
           </div>
         </section>
 
@@ -360,7 +355,7 @@ export default async function PaginaVeiculo({ params }: PageProps<"/carros/[id]"
           </section>
         )}
       </main>
-      <BarraFixa carro={c} url={link} alvo="galeria" />
+      <BarraFixa carro={c} alvo="galeria" />
       <Rodape />
     </>
   );

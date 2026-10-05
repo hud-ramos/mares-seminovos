@@ -2,7 +2,8 @@ import Link from "next/link";
 import { Logo, Ondas } from "./Marca";
 import { IconeInstagram, IconeWhatsApp, IconeYouTube } from "./icones";
 import { BotaoLink } from "./Botao";
-import { SITE, linkWhatsApp } from "@/lib/site";
+import { SITE } from "@/lib/site";
+import { linkConversa } from "@/lib/links";
 
 const COLUNAS = [
   {
@@ -41,7 +42,7 @@ export default function Rodape() {
             <p className="max-w-[340px] text-[17px] leading-relaxed text-creme/80">
               Seminovos com procedência, laudo e garantia. Três lojas entre Santos e São Paulo.
             </p>
-            <BotaoLink href={linkWhatsApp("Olá! Vim pelo site da Marés Seminovos.")} icone={<IconeWhatsApp />} className="self-start">
+            <BotaoLink href={linkConversa()} icone={<IconeWhatsApp />} className="self-start">
               Falar no WhatsApp
             </BotaoLink>
           </div>

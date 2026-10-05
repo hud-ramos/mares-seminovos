@@ -2,9 +2,10 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { Ondas } from "./Marca";
 import { IconeCarro, IconeSetaCima } from "./icones";
-import { linkWhatsApp } from "@/lib/site";
+import { linkConversa } from "@/lib/links";
 
 export function SeloSupervalorizacao() {
   return (
@@ -17,6 +18,7 @@ export function SeloSupervalorizacao() {
 
 export default function BannerTroca() {
   const [carro, setCarro] = useState("");
+  const router = useRouter();
   return (
     <section id="troca" aria-labelledby="troca-titulo" className="relative col-span-full overflow-hidden rounded-2xl bg-azul text-creme">
       <Ondas className="absolute top-4 right-[30%] hidden w-[560px] opacity-[0.07] md:block" />
@@ -32,11 +34,7 @@ export default function BannerTroca() {
           <form
             onSubmit={(e) => {
               e.preventDefault();
-              window.open(
-                linkWhatsApp(`Olá! Quero avaliar meu carro para usar na troca: ${carro || "(vou informar o modelo)"}.`),
-                "_blank",
-                "noopener,noreferrer",
-              );
+              router.push(linkConversa({ assunto: "troca", texto: carro }));
             }}
             className="mt-1 flex flex-col gap-2.5 md:flex-row"
           >

@@ -4,19 +4,19 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { type Carro, foto, formatarPreco, nome, parcelaPadrao, resumo } from "@/lib/carros";
-import { linkWhatsApp } from "@/lib/site";
+import Link from "next/link";
+import { linkConversa } from "@/lib/links";
 import { IconeWhatsApp } from "../icones";
 import { classeBotao } from "../Botao";
-import { mensagemCarro } from "./AcoesCompra";
 
 /**
  * Desktop: aparece presa no topo depois que a pessoa passa da galeria.
  * Celular: fica sempre presa no rodapé da tela.
  */
-export default function BarraFixa({ carro, url, alvo }: { carro: Carro; url: string; alvo: string }) {
+export default function BarraFixa({ carro, alvo }: { carro: Carro; alvo: string }) {
   const [visivel, setVisivel] = useState(false);
   const f = foto(carro);
-  const whats = linkWhatsApp(mensagemCarro(carro, url));
+  const whats = linkConversa({ carro: carro.id });
 
   useEffect(() => {
     const el = document.getElementById(alvo);
@@ -50,9 +50,9 @@ export default function BarraFixa({ carro, url, alvo }: { carro: Carro; url: str
                 a partir de 48x de {formatarPreco(parcelaPadrao(carro))}
               </p>
             </div>
-            <a href={whats} target="_blank" rel="noopener noreferrer" className={classeBotao("contorno", "py-3.5")}>
+            <Link href={whats} className={classeBotao("contorno", "py-3.5")}>
               <IconeWhatsApp /> WhatsApp
-            </a>
+            </Link>
             <a href="#simular" className={classeBotao("primario", "py-3.5")}>
               Simular parcelas
             </a>
@@ -67,9 +67,9 @@ export default function BarraFixa({ carro, url, alvo }: { carro: Carro; url: str
             48x de {formatarPreco(parcelaPadrao(carro))}
           </p>
         </div>
-        <a href={whats} target="_blank" rel="noopener noreferrer" aria-label="Conversar no WhatsApp" className="grid size-[52px] place-items-center rounded-full border-[1.5px] border-tinta">
+        <Link href={whats} aria-label="Conversar no WhatsApp" className="grid size-[52px] place-items-center rounded-full border-[1.5px] border-tinta">
           <IconeWhatsApp />
-        </a>
+        </Link>
         <a href="#simular" className={classeBotao("primario", "px-6 py-3.5")}>
           Simular
         </a>

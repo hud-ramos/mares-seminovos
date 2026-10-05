@@ -1,15 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { type Carro, formatarPreco, nome } from "@/lib/carros";
-import { linkWhatsApp, SITE } from "@/lib/site";
+import type { Carro } from "@/lib/carros";
+import Link from "next/link";
+import { linkConversa } from "@/lib/links";
 import { Favoritar } from "../CardCarro";
 import { IconeCompartilhar, IconeWhatsApp } from "../icones";
 import { classeBotao } from "../Botao";
-
-export function mensagemCarro(c: Carro, url: string) {
-  return `Olá! Tenho interesse no ${nome(c)} ${c.ano} (${formatarPreco(c.preco)}). ${SITE.url}${url}`;
-}
 
 export function Compartilhar({ titulo, url }: { titulo: string; url: string }) {
   const [copiado, setCopiado] = useState(false);
@@ -41,15 +38,15 @@ export function FavoritoBorda({ id }: { id: string }) {
   return <Favoritar id={id} className="border border-linha shadow-none" />;
 }
 
-export function BotoesCompra({ carro, url }: { carro: Carro; url: string }) {
+export function BotoesCompra({ carro }: { carro: Carro }) {
   return (
     <div className="flex flex-col gap-3">
       <a href="#simular" className={classeBotao("primario", "w-full")}>
         Simular parcelas
       </a>
-      <a href={linkWhatsApp(mensagemCarro(carro, url))} target="_blank" rel="noopener noreferrer" className={classeBotao("contorno", "w-full")}>
+      <Link href={linkConversa({ carro: carro.id })} className={classeBotao("contorno", "w-full")}>
         <IconeWhatsApp /> Conversar no WhatsApp
-      </a>
+      </Link>
       <p className="text-center text-sm text-cinza">
         Supervalorizamos seu usado na troca ·{" "}
         <a href="#simular-troca" className="font-medium text-azul underline">

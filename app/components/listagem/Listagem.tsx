@@ -17,7 +17,7 @@ import {
   totalFiltrosAtivos,
 } from "@/lib/filtros";
 import { useFavoritos } from "@/lib/favoritos";
-import { linkWhatsApp } from "@/lib/site";
+import { linkConversa } from "@/lib/links";
 import CardCarro, { CardCarregando } from "../CardCarro";
 import BannerTroca from "../BannerTroca";
 import Gaveta from "../Gaveta";
@@ -321,14 +321,9 @@ function SemResultado({
         </p>
         <div className="flex w-full flex-col gap-3 md:w-auto md:flex-row">
           {!soFavoritos && (
-            <a
-              href={linkWhatsApp(`Olá! Procuro ${estado.q || "um carro"} e não encontrei no site. Podem me avisar quando chegar?`)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={classeBotao("primario")}
-            >
+            <Link href={linkConversa({ assunto: "aviso", texto: estado.q })} className={classeBotao("primario")}>
               Me avise no WhatsApp
-            </a>
+            </Link>
           )}
           {soFavoritos ? (
             <Link href="/" className={classeBotao("contorno")}>

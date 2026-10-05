@@ -3,7 +3,8 @@
 import { useEffect, useId, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { type Carro, entradaMinima, formatarPreco, nome, parcela } from "@/lib/carros";
-import { linkWhatsApp, SITE } from "@/lib/site";
+import { useRouter } from "next/navigation";
+import { guardarLead } from "@/lib/lead";
 import { IconeCheck, IconeInfo, IconeSeta, IconeWhatsApp } from "../icones";
 import { SeloSupervalorizacao } from "../BannerTroca";
 import Gaveta from "../Gaveta";
@@ -15,7 +16,7 @@ const ANOS = Array.from({ length: 15 }, (_, k) => 2026 - k);
 const somenteDigitos = (s: string) => s.replace(/\D/g, "");
 const formatarMilhar = (n: number) => n.toLocaleString("pt-BR");
 
-export default function Simulador({ carro, url }: { carro: Carro; url: string }) {
+export default function Simulador({ carro }: { carro: Carro }) {
   const minimo = entradaMinima(carro);
   const [entrada, setEntrada] = useState(minimo);
   const [prazo, setPrazo] = useState(48);
@@ -193,7 +194,6 @@ export default function Simulador({ carro, url }: { carro: Carro; url: string })
         aberto={contato}
         aoFechar={() => setContato(false)}
         carro={carro}
-        url={url}
         entrada={entrada}
         prazo={prazo}
         valorParcela={valorParcela}
@@ -207,7 +207,6 @@ function Contato({
   aberto,
   aoFechar,
   carro,
-  url,
   entrada,
   prazo,
   valorParcela,
@@ -216,7 +215,6 @@ function Contato({
   aberto: boolean;
   aoFechar: () => void;
   carro: Carro;
-  url: string;
   entrada: number;
   prazo: number;
   valorParcela: number;
@@ -226,6 +224,7 @@ function Contato({
   const [zap, setZap] = useState("");
   const [cpf, setCpf] = useState("");
   const [erro, setErro] = useState(false);
+  const router = useRouter();
 
   const mascaraZap = (v: string) => {
     const d = somenteDigitos(v).slice(0, 11);
@@ -245,18 +244,10 @@ function Contato({
       setErro(true);
       return;
     }
-    // O lead chega com contexto: carro, simulação e troca. O CPF não vai na mensagem; o vendedor pede na conversa.
-    const msg = [
-      `Olá! Sou ${nomeCliente.trim()} e quero a taxa real para o ${nome(carro)} ${carro.ano} (${formatarPreco(carro.preco)}).`,
-      `Anúncio: ${SITE.url}${url}`,
-      `Simulação: entrada de ${formatarPreco(entrada)} + ${prazo}x de ${formatarPreco(valorParcela)}.`,
-      troca ? `Tenho um carro para a troca: ${troca}.` : "Não tenho carro para a troca.",
-      cpf ? "Já tenho o CPF em mãos para a pré-aprovação." : "",
-    ]
-      .filter(Boolean)
-      .join("\n");
-    window.open(linkWhatsApp(msg), "_blank", "noopener,noreferrer");
+    // O lead chega com contexto: carro, simulação e troca. O número do CPF não sai daqui; só a informação de que foi dado.
+    guardarLead({ nome: nomeCliente.trim(), entrada, prazo, parcela: valorParcela, troca, cpf: somenteDigitos(cpf).length === 11 });
     aoFechar();
+    router.push(`/whatsapp?tipo=lead&carro=${carro.id.toLowerCase()}`);
   };
 
   const campo = "h-[52px] w-full rounded-xl bg-creme px-4 outline-none placeholder:text-cinza focus:ring-2 focus:ring-azul";

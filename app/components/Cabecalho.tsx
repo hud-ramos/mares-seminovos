@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Logo } from "./Marca";
 import { IconeBusca, IconeCoracao, IconeWhatsApp, IconeX } from "./icones";
 import { useFavoritos } from "@/lib/favoritos";
-import { linkWhatsApp } from "@/lib/site";
+import { linkConversa } from "@/lib/links";
 import FaixaConfianca from "./FaixaConfianca";
 
 const NAV = [
@@ -52,15 +52,13 @@ export default function Cabecalho() {
               </span>
             )}
           </Link>
-          <a
-            href={linkWhatsApp("Olá! Vim pelo site da Marés Seminovos.")}
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href={linkConversa()}
             className="hidden items-center gap-2 rounded-full bg-amarelo px-7 py-4 font-bold text-tinta transition-colors hover:bg-amarelo-hover md:inline-flex"
           >
             <IconeWhatsApp />
             WhatsApp
-          </a>
+          </Link>
           <button aria-label="Abrir menu" aria-expanded={menu} onClick={() => setMenu(true)} className="flex flex-col gap-[5px] lg:hidden">
             <span className="h-0.5 w-5 rounded bg-current" />
             <span className="h-0.5 w-5 rounded bg-current" />
