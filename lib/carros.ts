@@ -89,6 +89,9 @@ const FOTO_POR_MODELO: Record<string, string> = {
   "T-Cross": "t-cross",
   Tracker: "tracker",
   Nivus: "nivus",
+  Strada: "strada",
+  City: "city",
+  HB20: "hb20",
 };
 
 export function foto(c: Carro): string | null {
