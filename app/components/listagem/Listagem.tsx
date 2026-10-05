@@ -158,7 +158,7 @@ export default function Listagem({ carros }: { carros: Carro[] }) {
       {/* Atalhos + ordenação */}
       <div className="lg:margem flex items-center gap-4">
         <span className="hidden text-base font-medium lg:block">Filtros</span>
-        <div className="sem-barra margem flex-1 overflow-x-auto py-1 lg:px-0">
+        <div className="sem-barra margem min-w-0 flex-1 overflow-x-auto py-1 lg:px-0">
           <Atalhos ativos={estado.atalhos} contagens={contagensAtalhos} alternar={alternarAtalho} />
         </div>
         <div className="hidden shrink-0 items-center gap-4 lg:flex">
@@ -179,7 +179,8 @@ export default function Listagem({ carros }: { carros: Carro[] }) {
           <IconeChevron />
         </button>
       </div>
-      <p className="margem mt-3 text-sm text-cinza lg:hidden">
+      {/* Com filtro, a contagem já aparece na linha dos chips logo abaixo. */}
+      <p className={`margem mt-3 text-sm text-cinza lg:hidden ${chips.length > 0 ? "hidden" : ""}`}>
         {resultado.length} {resultado.length === 1 ? "carro" : "carros"} · {ordemAtual.label}
       </p>
 

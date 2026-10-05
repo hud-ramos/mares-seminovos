@@ -51,7 +51,7 @@ export default function Gaveta({ aberta, aoFechar, titulo, children, rodape, mod
             exit={{ opacity: 0 }}
           />
           <motion.div
-            className={`relative flex max-h-[92dvh] w-full flex-col rounded-t-[20px] bg-branco shadow-2xl ${
+            className={`relative flex max-h-[92dvh] w-full flex-col rounded-t-[20px] bg-branco text-tinta shadow-2xl ${
               lateral ? "md:max-h-none md:w-[520px] md:rounded-none" : "md:w-[480px] md:rounded-[20px]"
             }`}
             initial={{ y: 40, opacity: 0 }}

@@ -45,7 +45,7 @@ export default function BannerTroca() {
             }}
             className="mt-1 flex flex-col gap-2.5 md:flex-row"
           >
-            <label className="flex h-[52px] flex-1 items-center gap-2.5 rounded-full bg-branco px-5 text-tinta md:max-w-[340px]">
+            <label className="flex h-[52px] w-full shrink-0 items-center gap-2.5 rounded-full bg-branco px-5 text-tinta md:w-auto md:max-w-[340px] md:flex-1">
               <IconeCarro className="text-cinza" />
               <span className="sr-only">Seu carro</span>
               <input

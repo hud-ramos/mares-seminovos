@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { DM_Sans, Barlow_Semi_Condensed } from "next/font/google";
 import "./globals.css";
+import RolagemArrastavel from "./components/RolagemArrastavel";
 import { SITE } from "@/lib/site";
 
 const dmSans = DM_Sans({
@@ -67,6 +68,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <RolagemArrastavel />
         {children}
       </body>
     </html>
