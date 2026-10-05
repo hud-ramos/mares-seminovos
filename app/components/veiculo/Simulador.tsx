@@ -197,7 +197,7 @@ export default function Simulador({ carro }: { carro: Carro }) {
         entrada={entrada}
         prazo={prazo}
         valorParcela={valorParcela}
-        troca={troca ? `${trocaModelo || "carro a informar"} ${trocaAno}${trocaKm ? ` · ${trocaKm} km` : ""}` : null}
+        troca={troca ? `${trocaModelo || "modelo a informar"} · ${trocaAno}${trocaKm ? ` · ${trocaKm} km` : ""}` : null}
       />
     </div>
   );
@@ -240,12 +240,22 @@ function Contato({
       .replace(/(\d{3})(\d{1,2})$/, "$1-$2");
 
   const enviar = () => {
-    if (!nomeCliente.trim() || somenteDigitos(zap).length < 10) {
+    const vazio = !nomeCliente.trim() && !somenteDigitos(zap);
+    if (!vazio && (!nomeCliente.trim() || somenteDigitos(zap).length < 10)) {
       setErro(true);
       return;
     }
     // O lead chega com contexto: carro, simulação e troca. O número do CPF não sai daqui; só a informação de que foi dado.
-    guardarLead({ nome: nomeCliente.trim(), entrada, prazo, parcela: valorParcela, troca, cpf: somenteDigitos(cpf).length === 11 });
+    // Sem nome e WhatsApp, a tela mostra um exemplo com a simulação desta pessoa (útil na apresentação).
+    guardarLead({
+      nome: nomeCliente.trim() || "Ana Souza",
+      entrada,
+      prazo,
+      parcela: valorParcela,
+      troca,
+      cpf: somenteDigitos(cpf).length === 11,
+      exemplo: vazio,
+    });
     aoFechar();
     router.push(`/whatsapp?tipo=lead&carro=${carro.id.toLowerCase()}`);
   };
@@ -263,6 +273,11 @@ function Contato({
       }
       rodape={
         <div className="flex flex-col gap-3">
+          {erro && (
+            <p role="alert" className="text-sm font-medium text-[#B42318]">
+              Preencha seu nome e um WhatsApp com DDD.
+            </p>
+          )}
           <button onClick={enviar} className={classeBotao("primario", "w-full")}>
             <IconeWhatsApp /> Receber simulação no WhatsApp
           </button>
@@ -320,11 +335,6 @@ function Contato({
           <input value={cpf} onChange={(e) => setCpf(mascaraCpf(e.target.value))} inputMode="numeric" placeholder="000.000.000-00" className={campo} />
           <span className="text-[13px] text-cinza">Com o CPF, já trazemos a taxa pré-aprovada na proposta.</span>
         </label>
-        {erro && (
-          <p role="alert" className="text-sm font-medium text-[#B42318]">
-            Preencha seu nome e um WhatsApp com DDD.
-          </p>
-        )}
         <button type="submit" className="sr-only">
           Enviar
         </button>

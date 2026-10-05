@@ -44,7 +44,7 @@ export default function SimulacaoWhatsApp({ tipo, assunto, texto, carro }: Props
   }, []);
 
   const voltar = () => (window.history.length > 1 ? router.back() : router.push(carro?.url ?? "/"));
-  const destinoVolta = carro ? "Voltar para o anúncio" : "Voltar para o site";
+  const destinoVolta = tipo === "lead" ? "Voltar para a simulação" : carro ? "Voltar para o anúncio" : "Voltar para o site";
 
   const l: Lead = lead ?? {
     ...LEAD_EXEMPLO,
@@ -155,11 +155,13 @@ export default function SimulacaoWhatsApp({ tipo, assunto, texto, carro }: Props
     <main className="flex-1 bg-[#EFEEE8]">
       <div className="margem py-6 lg:py-10">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <button onClick={voltar} className="flex items-center gap-1.5 font-medium text-azul hover:underline">
+          <button onClick={voltar} className="flex items-center gap-1.5 font-medium text-azul underline underline-offset-4 hover:no-underline">
             <IconeSeta size={18} /> {destinoVolta}
           </button>
           <p className="rounded-full bg-white px-3.5 py-1.5 text-[13px] text-cinza">
-            Simulação: num site real, este botão abriria o WhatsApp da loja.
+            {tipo === "lead" && (!lead || lead.exemplo)
+              ? "Exemplo: preencha nome e WhatsApp para ver a conversa com os seus dados."
+              : "Simulação: num site real, este botão abriria o WhatsApp da loja."}
           </p>
         </div>
 

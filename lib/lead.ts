@@ -8,6 +8,8 @@ export type Lead = {
   parcela: number;
   troca: string | null;
   cpf: boolean;
+  /** true quando a pessoa não preencheu nome e WhatsApp: a tela mostra um exemplo. */
+  exemplo?: boolean;
 };
 
 const CHAVE = "mares:lead";
