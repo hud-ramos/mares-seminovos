@@ -28,3 +28,29 @@ export function lerLead(): Lead | null {
     return null;
   }
 }
+
+/** Pedido de avaliação do usado, vindo do banner de troca da listagem. */
+export type PedidoTroca = {
+  nome: string;
+  modelo: string;
+  ano: number;
+  km: string;
+  exemplo?: boolean;
+};
+
+const CHAVE_TROCA = "mares:troca";
+
+export function guardarTroca(t: PedidoTroca) {
+  try {
+    sessionStorage.setItem(CHAVE_TROCA, JSON.stringify(t));
+  } catch {}
+}
+
+export function lerTroca(): PedidoTroca | null {
+  try {
+    const v = sessionStorage.getItem(CHAVE_TROCA);
+    return v ? (JSON.parse(v) as PedidoTroca) : null;
+  } catch {
+    return null;
+  }
+}

@@ -36,7 +36,7 @@ export default async function PaginaWhatsApp({ searchParams }: PageProps<"/whats
       <Cabecalho />
       <Suspense>
         <SimulacaoWhatsApp
-          tipo={um(p.tipo) === "lead" ? "lead" : "conversa"}
+          tipo={um(p.tipo) === "lead" ? "lead" : um(p.tipo) === "troca" ? "troca" : "conversa"}
           assunto={um(p.assunto) ?? "carro"}
           texto={um(p.texto) ?? ""}
           carro={carro}

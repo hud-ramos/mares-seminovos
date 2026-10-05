@@ -9,12 +9,9 @@ import { IconeCheck, IconeInfo, IconeSeta, IconeWhatsApp } from "../icones";
 import { SeloSupervalorizacao } from "../BannerTroca";
 import Gaveta from "../Gaveta";
 import { classeBotao } from "../Botao";
+import { ANOS, formatarMilhar, mascaraZap, somenteDigitos } from "@/lib/mascaras";
 
 const PRAZOS = [12, 24, 36, 48, 60];
-const ANOS = Array.from({ length: 15 }, (_, k) => 2026 - k);
-
-const somenteDigitos = (s: string) => s.replace(/\D/g, "");
-const formatarMilhar = (n: number) => n.toLocaleString("pt-BR");
 
 export default function Simulador({ carro }: { carro: Carro }) {
   const minimo = entradaMinima(carro);
@@ -226,12 +223,6 @@ function Contato({
   const [erro, setErro] = useState(false);
   const router = useRouter();
 
-  const mascaraZap = (v: string) => {
-    const d = somenteDigitos(v).slice(0, 11);
-    if (d.length <= 2) return d ? `(${d}` : "";
-    if (d.length <= 7) return `(${d.slice(0, 2)}) ${d.slice(2)}`;
-    return `(${d.slice(0, 2)}) ${d.slice(2, 7)}-${d.slice(7)}`;
-  };
   const mascaraCpf = (v: string) =>
     somenteDigitos(v)
       .slice(0, 11)
