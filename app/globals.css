@@ -79,7 +79,8 @@ input[type="range"].faixa::-moz-range-thumb {
   cursor: pointer;
 }
 
-:focus-visible {
+/* Contorno de foco para teclado em botões e links. Campos de texto têm o próprio foco (ou nenhum). */
+:focus-visible:not(input:not([type="range"]), select, textarea) {
   outline: 2px solid var(--color-azul);
   outline-offset: 2px;
 }
