@@ -201,7 +201,7 @@ export default function SimulacaoWhatsApp({
         hora: "10:58",
         texto: l.cpf ? (
           <>
-            {primeiroNome}, aqui é o Rafael. Sua taxa pré-aprovada ficou em
+            {primeiroNome}, aqui é o Rafael. Sua taxa pré-aprovada ficou em{" "}
             {(taxaReal * 100).toFixed(2).replace(".", ",")}% a.m.: {l.prazo}x de{" "}
             {brl(parcelaReal)}, com a mesma entrada.
             {l.troca && (
