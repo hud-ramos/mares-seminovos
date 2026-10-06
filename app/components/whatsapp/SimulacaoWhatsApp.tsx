@@ -26,6 +26,7 @@ type CarroResumo = {
   modelo: string;
   entradaMin: number;
   parcelaPadrao: number;
+  taxa: number;
 };
 
 type Props = {
@@ -144,7 +145,8 @@ export default function SimulacaoWhatsApp({
     ];
   } else if (tipo === "lead" && carro) {
     const precoBase = carro.precoNum - l.entrada;
-    const taxaReal = 0.0149;
+    // A pré-aprovação sai 0,3 p.p. abaixo da taxa média do anúncio (1,79% vira 1,49%; 1,19% vira 0,89%).
+    const taxaReal = Math.max(carro.taxa - 0.003, 0.005);
     const parcelaReal = calcularParcela(precoBase, l.prazo, taxaReal);
     bolhas = [
       {
@@ -200,7 +202,8 @@ export default function SimulacaoWhatsApp({
         texto: l.cpf ? (
           <>
             {primeiroNome}, aqui é o Rafael. Sua taxa pré-aprovada ficou em
-            1,49% a.m.: {l.prazo}x de {brl(parcelaReal)}, com a mesma entrada.
+            {(taxaReal * 100).toFixed(2).replace(".", ",")}% a.m.: {l.prazo}x de{" "}
+            {brl(parcelaReal)}, com a mesma entrada.
             {l.troca && (
               <>
                 <br />
@@ -233,9 +236,12 @@ export default function SimulacaoWhatsApp({
             : carro
               ? `Olá! Tenho interesse no ${carro.nome} ${carro.ano} (código ${carro.id}). Ainda está disponível?`
               : "Olá! Vim pelo site da Marés Seminovos.";
-    const resposta = carro
-      ? `Oi! ${assunto === "laudo" ? "Já te mando o PDF do laudo." : `Está sim, na ${carro.loja}.`} O Rafael já vai falar com você. Para adiantar, como você pensa em comprar?`
-      : "Oi! Que bom ter você aqui. Para adiantar, como você pensa em comprar?";
+    const resposta =
+      assunto === "aviso"
+        ? `Oi! Anotado: te avisamos aqui assim que chegar ${texto ? `um ${texto}` : "o carro que você procura"}. Enquanto isso, quer ver opções parecidas?`
+        : carro
+          ? `Oi! ${assunto === "laudo" ? "Já te mando o PDF do laudo." : `Está sim, na ${carro.loja}.`} O Rafael já vai falar com você. Para adiantar, como você pensa em comprar?`
+          : "Oi! Que bom ter você aqui. Para adiantar, como você pensa em comprar?";
     bolhas = [
       { de: "cliente", cartao: !!carro, hora: "14:05", texto: primeira },
       { de: "auto", hora: "14:05", texto: resposta },
@@ -299,11 +305,17 @@ export default function SimulacaoWhatsApp({
                             "Prefiro levar na loja",
                             "Quero ver carros para trocar",
                           ]
-                        : [
-                            "Vou financiar",
-                            "Tenho carro para dar na troca",
-                            "Só quero ver o carro",
-                          ]
+                        : assunto === "aviso"
+                          ? [
+                              "Pode me avisar",
+                              "Quero ver parecidos",
+                              "Falar com um vendedor",
+                            ]
+                          : [
+                              "Vou financiar",
+                              "Tenho carro para dar na troca",
+                              "Só quero ver o carro",
+                            ]
                       ).map((o) => (
                         <span
                           key={o}
@@ -379,7 +391,7 @@ export default function SimulacaoWhatsApp({
                       ],
                       [
                         "Se cabe no orçamento",
-                        "Entrada acima do mínimo, prazo e parcela que a pessoa já aceitou ver.",
+                        "Entrada, prazo e parcela que a pessoa já escolheu no simulador.",
                       ],
                       [
                         "Se tem troca",

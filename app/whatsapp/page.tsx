@@ -30,6 +30,7 @@ export default async function PaginaWhatsApp({ searchParams }: PageProps<"/whats
     modelo: c.modelo,
     entradaMin: entradaMinima(c),
     parcelaPadrao: parcelaPadrao(c),
+    taxa: c.simulacao.taxaMensal,
   };
   return (
     <>
